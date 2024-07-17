@@ -1,0 +1,12 @@
+{
+    "title": "Kubernetes 101",
+    "description": "De eerste stappen in de wereld van Kubernetes, voor de DCN workshops",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        }
+    },
+    "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes"
+    }
+}
