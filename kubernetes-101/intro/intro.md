@@ -17,12 +17,8 @@ kubectl get nodes
 Je zult nu een lijstje krijgen met twee nodes, waarvan één de rol `control-plane` heeft.
 
 ```
-controlplane $ kubectl get nodes
+$ kubectl get nodes
 NAME STATUS ROLES AGE VERSION
 controlplane Ready control-plane 18d v1.30.0
 node01 Ready <none> 18d v1.30.0
-```
-
-```
-
 ```

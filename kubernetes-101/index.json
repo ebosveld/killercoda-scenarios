@@ -5,7 +5,13 @@
         "intro": {
             "text": "intro/intro.md",
             "background": "intro/background.sh"
-        }
+        },
+        "steps": [
+            {
+                "title": "Pods",
+                "text": "step1/text.md"
+            }
+        ]
     },
     "backend": {
         "imageid": "kubernetes-kubeadm-2nodes"
