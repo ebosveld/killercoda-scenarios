@@ -3,7 +3,8 @@
     "description": "De eerste stappen in de wereld van Kubernetes, voor de DCN workshops",
     "details": {
         "intro": {
-            "text": "intro.md"
+            "text": "intro/intro.md",
+            "background": "intro/background.sh"
         }
     },
     "backend": {
