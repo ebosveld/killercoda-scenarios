@@ -12,6 +12,17 @@ Laten we eens kijken of het cluster goed werkt. Toon de nodes in het cluster met
 
 ```
 kubectl get nodes
-```
+```{{execute}}
 
 Je zult nu een lijstje krijgen met twee nodes, waarvan één de rol `control-plane` heeft.
+
+```
+controlplane $ kubectl get nodes
+NAME STATUS ROLES AGE VERSION
+controlplane Ready control-plane 18d v1.30.0
+node01 Ready <none> 18d v1.30.0
+```
+
+```
+
+```
