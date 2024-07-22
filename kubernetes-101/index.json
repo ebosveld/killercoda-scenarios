@@ -8,10 +8,23 @@
         },
         "steps": [
             {
-                "title": "Pods",
-                "text": "step1/text.md"
+                "title": "Componenten",
+                "text": "step1.md"
+            },
+            {
+                "title": "Aan de slag",
+                "text": "step2.md"
             }
-        ]
+        ],
+        "assets": {
+            "host01": [
+                {
+                    "file": "namespace.yaml",
+                    "target": "/podinfo",
+                    "chmod": "+x"
+                }
+            ]
+        }
     },
     "backend": {
         "imageid": "kubernetes-kubeadm-2nodes"
