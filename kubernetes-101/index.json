@@ -28,8 +28,27 @@
             "host01": [
                 {
                     "file": "namespace.yaml",
-                    "target": "/root/podinfo",
-                    "chmod": "+x"
+                    "target": "/root/podinfo"
+                },
+                {
+                    "file": "cache/namespace.yaml",
+                    "target": "/root/cache"
+                },
+                {
+                    "file": "cache/redis.conf",
+                    "target": "/root/cache"
+                },
+                {
+                    "file": "cache/service.yaml",
+                    "target": "/root/cache"
+                },
+                {
+                    "file": "cache/statefulset.yaml",
+                    "target": "/root/cache"
+                },
+                {
+                    "file": "cache/kustomization.yaml",
+                    "target": "/root/cache"
                 }
             ]
         }

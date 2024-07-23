@@ -20,9 +20,9 @@ spec:
       nodePort: 32676
       port: 9898
       protocol: TCP
-      targetPort: http
+      targetPort: 9898
 ```{{copy}}
 
 Sla het bestand op als `service.yaml` en voer dit weer uit met met `kubectl apply`.
 
-Nu kunnen we de applicatie bereiken via de volgende link [ACCESS]({{TRAFFIC_HOST1_8080}}) <small>(of [door hier de poort te selecteren]({{TRAFFIC_SELECTOR}}))</small>.
+Nu kunnen we de applicatie bereiken via de volgende link: [podinfo app]({{TRAFFIC_HOST1_32676}}) <small>(of [door hier de poort te selecteren]({{TRAFFIC_SELECTOR}}))</small>.

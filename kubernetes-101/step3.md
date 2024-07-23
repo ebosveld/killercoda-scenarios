@@ -29,6 +29,6 @@ spec:
           imagePullPolicy: IfNotPresent
 ```{{copy}}
 
-Sla het `yaml` bestand op a;s `deployment.yaml` in de `podinfo` map en laat het uitvoeren.
+Sla het `yaml` bestand op als `deployment.yaml` in de `podinfo` map en laat het uitvoeren.
 
 Hint: gebruik `kubectl apply`.
