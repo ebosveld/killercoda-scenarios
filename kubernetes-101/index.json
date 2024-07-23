@@ -3,8 +3,8 @@
     "description": "De eerste stappen in de wereld van Kubernetes, voor de DCN workshops",
     "details": {
         "intro": {
-            "text": "intro/intro.md",
-            "background": "intro/background.sh"
+            "text": "intro.md",
+            "background": "assets/background.sh"
         },
         "steps": [
             {
@@ -14,13 +14,21 @@
             {
                 "title": "Aan de slag",
                 "text": "step2.md"
+            },
+            {
+                "title": "Deployment",
+                "text": "step3.md"
+            },
+            {
+                "title": "Service",
+                "text": "step4.md"
             }
         ],
         "assets": {
             "host01": [
                 {
                     "file": "namespace.yaml",
-                    "target": "/podinfo",
+                    "target": "/root/podinfo",
                     "chmod": "+x"
                 }
             ]
