@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: cache
-  namespace: cache
+  namespace: podinfo
 spec:
   selector:
     matchLabels:
@@ -48,11 +48,17 @@ spec:
             - mountPath: /redis-master
               name: config
       volumes:
-        - name: data
-          emptyDir: {}
         - name: config
           configMap:
             name: redis-config
             items:
               - key: redis.conf
                 path: redis.conf
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ['ReadWriteOnce']
+        resources:
+          requests:
+            storage: 1Gi

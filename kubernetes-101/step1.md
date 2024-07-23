@@ -1,5 +1,3 @@
-# Componenten
-
 Naast het cluster en de nodes, bestaat Kubernetes uit een aantal componenten om je containers en applicaties te draaien.
 
 ## Pods

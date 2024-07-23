@@ -1,5 +1,3 @@
-# Aan de slag
-
 Nu we de crash course Kubernetes hebben gehad, laten we starten met wat leuks: een applicatie deployen. We gebruiken hiervoor de [podinfo](https://github.com/stefanprodan/podinfo) applicatie.
 
 Hiervoor hebben we alles met commando's gedaan, maar dat is natuurlijk niet zoals het echt hoort. Dat is niet reproduceerbaar en in veel organisaties is _click ops_ uit den boze. Daarom gaan we de rest doen met `yaml` files.
